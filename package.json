@@ -1,0 +1,52 @@
+{
+  "name": "gxhub",
+  "version": "0.1.0",
+  "description": "Uma plataforma colaborativa de código aberto para desenvolvedores e inovadores. Facilitando colaboração, compartilhamento de conhecimento e inovação contínua.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "build": "echo 'Build script to be configured'",
+    "test": "echo 'Test script to be configured'",
+    "test:watch": "npm test -- --watch",
+    "lint": "eslint src --fix",
+    "lint:check": "eslint src",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "start": "node dist/index.js",
+    "precommit": "npm run lint && npm test"
+  },
+  "keywords": [
+    "collaboration",
+    "development",
+    "community",
+    "open-source",
+    "innovation",
+    "knowledge-sharing",
+    "developers",
+    "platform"
+  ],
+  "author": "GXHub-Group",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GXHub-Group/GXHUB.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GXHub-Group/GXHUB/issues"
+  },
+  "homepage": "https://github.com/GXHub-Group/GXHUB#readme",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/GXHub-Group"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  }
+}
